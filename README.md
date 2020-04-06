@@ -58,7 +58,7 @@ In diesem Repository findet man im Ordner stl das aktuelle Modell.
 Hier eine kleine Übersicht.
 Sollten dort in Zukunft mehr Versionen dazukommen, wird diese Übersicht ergänzt.
 
-Falls ihr Probleme mit dem Modell habt (0.8mm Nozzle) dann schreibt @Phil (slack) am besten direkt an oder öffnet hier ein Ticket.
+Falls ihr Probleme mit dem Modell habt dann schreibt @Phil (slack) am besten direkt an oder öffnet hier ein Ticket.
 
 ### stl/Darmstadt_Maske_v2_ohne_pad.stl
 Das einfache Modell. Simpel, gut zu drucken und gut, um Druckeinstellungen zu testen.
