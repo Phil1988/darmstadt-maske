@@ -1,11 +1,11 @@
 # Darmstadt-Maske: Gesichtsmasken für hub-rheinmain und hub-darmstadt
 
 Warum denn "noch eine Maske"? 
-Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich das Maß für die Visiere etabliert hat, aber einige Interessenten fragten nach einer größeren Entfernung zwischen Gesicht und Visier oder der Möglichkeit auch andere besser desinfizierbare Kopfbänder zu befestigen.
-Außerdem wurde bei unserem Modell die Druckzeit durch Konstruktive veränderungen deutlich reduziert (bis zu 40% schneller).
-Dieses Modell ist jedoch weiterhin vollständig kompatibel zur Prusa-Variante.
+Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich das Maß für die Visiere etabliert hat, aber einige Interessenten fragten nach einer **größeren Entfernung zwischen Gesicht und Visier** (mehr Platz Schuttbrille und Atemschutz) oder der Möglichkeit auch **andere, besser desinfizierbare, Kopfbänder** zu befestigen.
+Außerdem wurde bei unserem Modell die **Druckzeit durch konstruktive Veränderungen deutlich reduziert** (bis zu 40% schneller).
+Dieses Modell ist jedoch weiterhin **vollständig kompatibel zur Prusa-Variante** (Folien müssen nicht geändert werden).
 
-Als groben Richtwert, kann man das Kopfteil in etwa 60min drucken - mit einer 0.4mm Düse.
+Als groben Richtwert, kann man das **Kopfteil in etwa 60min drucken** - mit einer 0.4mm Düse.
 Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir hier zusammentragen, anschauen oder mit uns in Kontakt treten.
 
 ## Disclaimer
@@ -16,13 +16,12 @@ Diese Gesichtsmasken sind kein medizinisches Produkt, sind nicht zertifiziert un
 
 Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch besser helfen zu können.
 Bitte denkt daran, dass man mit dieser herstellung dieser Maske eine gewisse Verantwortung hat.
-Daher überprüft bitte selbst die Qualität eurer Drucke.
-Druckt das Modell mit mindestens 1mm Wandstärke (also für 0,4mm Düsen mit mindestens 3 Wänden).
-Nehmt 30% Füllung/INfill als Gitternetz/Grid.
+Daher **überprüft bitte selbst die Qualität eurer Drucke**.
+Druckt das Modell mit **mindestens 1mm Wandstärke** (also für 0,4mm Düsen mit mindestens 3 Wänden).
 
 Diese wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
 
-Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
+Hier ein **Video** das zeigt, welche mechanischer Belastung die Maske aushält:
 [Youtube-Video](https://youtu.be/hdetuEkw_Qs )
 
 Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
@@ -31,24 +30,23 @@ Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seit
 
 Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
 
-## TL;DR
+## Slicer-Einstellungen
 
 * Nutzt `PrusaSlicer` und stellt den in den Experten-Modus (rechts oben).
 * Alle Geschwindigkeiten auf die Geschwindigkeit `Eilgang` (`Travel Speed`) stellen, außer `Stützstrukturen` (`Support Material`), `Überbrückungen` (`Bridges`), `Lückenfüllung` (`Gap Fill`) und `Druckgeschwindigkeit der ersten Schicht` (`First layer speed`). Die echte Druckgeschwindigkeit wird ohnehin durch den maximalen Material Durchsatz eures Extruders begrenzt, sodass der Drucker die eingegebenen Geschwindigkeiten nicht erreichen wird.
 * Setzt die in eurem Filament die Maximale Volumengeschwindigkeit (`Max. Volumetric Speed`) auf 8mm³/s. Das könnt ihr erhöhen bis der Druck unsauber wird. Geeignet sind 2mm³/s Stufen. Sollte es zu lauten Knackgeräuschen aus dem Extruder kommen, ist der Wert zu hoch.
-* Setzt das Infill auf auf 10% und nehmt Gyroid. Das druckt minimal langsamer als ohne Infill, sollte dadurch aber stabiler sein.
-* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten sich zwischen den Hüllen Abstände befinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter, z.B. 0.48mm
+* Setzt das Infill auf auf 10-30% und nehmt Gyroid. Das druckt minimal langsamer als ohne Infill, sollte dadurch aber stabiler sein.
+* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten sich zwischen den Hüllen Abstände befinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter, z.B. 0.48mm bei einer 0.4mm Düse.
 
 ## FAQ
 
 Q: Warum druckt ihr eigene Designs? Es gibt doch schon so viele!
 
-A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier. Außerdem kann das Modell, durch eine für die meisten 3D Drucker besser optimiertes Design, vergleichsweise schnell gedruckt werden.
-
+A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier. Außerdem kann das Modell, durch ein für die meisten 3D Drucker besser optimiertes Design, vergleichsweise schnell gedruckt werden.
 
 Q: Ist euer Design denn stabil genug?
 
-A: Wir sind der Ansicht, dass es keine Einschränkungen hinsichtlich der Stabilität geben sollte, auch wenn die Maske mit großen, schweren Folien (zB 0,8mm PETG) ausgestattet wird.
+A: Wir sind der Ansicht, dass es keine Einschränkungen hinsichtlich der Stabilität geben sollte, auch wenn die Maske mit großen, schweren Folien (zB 0,8mm PETG) ausgestattet wird. Siehe Video unter "Qualität".
 
 Q: Ich nutze Cura. Gibt es dafür auch ein Einstellungs-Set?
 
@@ -60,7 +58,7 @@ In diesem Repository findet man im Ordner stl das aktuelle Modell.
 Hier eine kleine Übersicht.
 Sollten dort in Zukunft mehr Versionen dazukommen, wird diese Übersicht ergänzt.
 
-Falls ihr Probleme mit dem Modell habt (0.8mm Nozzle) dann schreibt @Phil (slack) am besten direkt an oder öffnet hier ein Ticket.
+Falls ihr Probleme mit dem Modell habt (z.B. mit 0.8mm Nozzle) dann schreibt @Phil (slack) am besten direkt an oder öffnet hier ein Ticket.
 
 ### stl/Darmstadt_Maske_v2_ohne_pad.stl
 Das einfache Modell. Simpel, gut zu drucken und gut, um Druckeinstellungen zu testen.
