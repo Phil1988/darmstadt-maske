@@ -23,7 +23,7 @@ Diese wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns u
 Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
 [Youtube-Video](https://youtu.be/hdetuEkw_Qs )
 
-Solltet ihr Probleme haben, dann fragt uns um Hilfe für die passenden Druckeinstellungen.
+Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
 
 ## Credits
 
