@@ -1,6 +1,12 @@
 # Darmstadt-Maske: Gesichtsmasken für hub-rheinmain und hub-darmstadt
 
-Warum denn "noch eine Maske"? Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich das Maß für die Visiere etabliert hat, aber einige Interessenten fragten nach einer größeren Entfernung zwischen Gesicht und Visier. Deswegen diese Version einer vollständig kompatiblen Prusa-Variante.
+Warum denn "noch eine Maske"? 
+Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich das Maß für die Visiere etabliert hat, aber einige Interessenten fragten nach einer größeren Entfernung zwischen Gesicht und Visier oder der Möglichkeit auch andere besser desinfizierbare Kopfbänder zu befestigen.
+Außerdem wurde bei unserem Modell die Druckzeit durch Konstruktive veränderungen deutlich reduziert (bis zu 40% schneller).
+Dieses Modell ist jedoch weiterhin vollständig kompatibel zur Prusa-Variante.
+
+Als groben Richtwert, kann man das Kopfteil in etwa 60min drucken - mit einer 0.4mm Düse.
+Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir hier zusammentragen, anschauen oder mit uns in Kontakt treten.
 
 ## Disclaimer
 
@@ -22,7 +28,8 @@ Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/f
 
 Q: Warum druckt ihr eigene Designs? Es gibt doch schon so viele!
 
-A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier.
+A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier. Außerdem kann das Modell, durch eine für die meisten 3D Drucker besser optimiertes Design, vergleichsweise schnell gedruckt werden.
+
 
 Q: Ist euer Design denn stabil genug?
 
@@ -34,17 +41,39 @@ A: Aktuell nicht. Sollten wir erhöhten Bedarf sehen, könnte sich das aber änd
 
 ## Modelle
 
-In diesem Repository findet man im Ordner stl das aktuelle Modell. 
+In diesem Repository findet man im Ordner stl das aktuelle Modell.
 Hier eine kleine Übersicht.
 Sollten dort in Zukunft mehr Versionen dazukommen, wird diese Übersicht ergänzt.
 
-### stl/darmstadt-maske-v1.stl
-
+### stl/Darmstadt_Maske_v2_ohne_pad.stl
 Das einfache Modell. Simpel, gut zu drucken und gut, um Druckeinstellungen zu testen.
 
+### stl/Darmstadt_Maske_v2_mit_pad.stl
+Im Vergleich zum Modell "ohne Pad" ist hier an den Enden des Kopfteils rechts und links ein kleines "Pad" dazugekommen.
+Auf dem folgenden Bild grün markiert:
+
+![Veranschaulichung Pad](https://raw.githubusercontent.com/Phil1988/darmstadt-maske/master/pad.PNG)
+
+Dieses Modell erhöht an diesen Stellen die Haftung und ist für Leute zu empfehlen, die dort Probleme haben.
+Das Pad lässt sich nach dem Druck einfach mit einem Seitenschneider entfernen und liegt auf der Außenseite, damit die beim Abschnitt entstehenden scharfen Kanten nicht unangenehm an der Stirn sind.
+
+
+### stl/Darmstadt_Maske_v2_Xer_Stapel_mit/ohne_pad.stl
+Dies sind gestapelte Modelle mit und ohne "Pad".
+Durch die Stapelung, kann mehrere Modelle (z.B. über Nacht) an einem Stück drucken.
+Leider fällt hierdurch aber ein zusätzlicher Arbeitsschritt an, da man die Modelle an den Sollbruchstellen erst lösen muss.
+ 
+ 
 ## Erklärung zu Druckeinstellungen
 
-Die Druckgeschwindigkeit wird maßgeblich von der Förderrate oder der `Maximalen Volumengeschwindigkeit` (`Max. Volumetric Speed`) beeinflusst. Das Modell ist simpel und hat ein gewisses Volumen, das durch den Druckkopf gedrückt werden muss. Ist diese Fördermenge kleiner, dauert der Druck länger. Angegeben wird diese in mm³/s.
+Wichtig ist, dass ihr beachtet, dass euer Drucker Grenzen hat, die wir nicht kennen.
+Alle hier genannten Werte für die Geschwindigkeit sind Richtwerte für unsere Drucker.
+Im Zweifel solltet ihr euch lieber erstmal an diese Werte ran tasten
+
+Die Druckgeschwindigkeit wird maßgeblich von der Förderrate oder der `Maximalen Volumengeschwindigkeit` (`Max. Volumetric Speed`) beeinflusst. Das Modell ist simpel und hat ein gewisses Volumen, das durch den Druckkopf gedrückt werden muss. Ist diese Fördermenge kleiner, dauert der Druck länger. Angegeben wird diese in mm³/s. Richtwert für PLA ist etwa 10-12mm³/s.
+Um die Fließeigenschaften des Kunststoffes zu verbessern, kann es ratsam sein, die Temperatur um 5-10°C höher zu stellen.
+
+Als Schichthöhe drucken wir größtenteils mit 0,3mm.
 
 Weiterhin möchte man Dinge vermeiden, die den Druckkopf bremsen. Dazu gehört langsam gedruckte Lückenfüllungen (`Gap fill`), Infill und andere enge Radien, bei denen der Drucker langsam fahren muss.
 
@@ -54,11 +83,12 @@ Als Beispiel hier ein Bild, mit dunkelrotem Infill und weißer Lückenfüllung, 
 Dieses Beispiel zeigt ein Bild eines Objekts, was nur aus einer Hülle besteht und daher sehr schnell zu drucken.
 ![Only Perimeters][perimeter]
 
-Um schnell druckbare Objekte zu bekommen, muss man in der Regel beim Design ansetzen. Bei dem Modell der Darmstadt-Maske wurde darauf geachtet, die gängige Wandstärke von 1.67mm einzuhalten, um eine glatte Anzahl gängiger Spurbreiten zu erhalten und so auf Lückenfüllungen zu verzichten. Deswegen ist die Einstellung der richtigen Extrusionsbreite entscheidend.
+Um schnell druckbare Objekte zu bekommen, muss man in der Regel beim Design ansetzen. Bei dem Modell der Darmstadt-Maske wurde darauf geachtet, die gängige Wandstärke von 1.67mm einzuhalten, um eine glatte Anzahl gängiger Spurbreiten zu erhalten und so auf Lückenfüllungen zu verzichten. Deswegen ist die Einstellung der richtigen Extrusionsbreite entscheidend. 
+Für eine 0.4mm Düse, ist eine Bahnbreite von 0.48mm ein guter Startwert. Man sollte aber beim Slicen selbst die Bahnen prüfen und die Breite entsprechend anpassen.
 
-Da letzten Endes nur die maximal mögliche Volumengeschwindigkeit relevant ist, kann der Drucker also in allen anderen Geschwindigkeiten auf seine maximale Geschwindigkeit eingestellt werden. Hier eignet sich der Wert der unter `Eilgang` (`Travel Speed`) eingetragen ist. Wichtig: Sollten gestapelte Versionen gedruckt werden, so ist wichtig, dass der Haken bei `Umfangbrücken entdecken` (`Detect bridging Perimeters`) gesetzt und die Geschwindigkeit von Brücken auf einen sehr niedrigen Wert gesetzt ist. Sinnig sind hier ca. 30mm/s. Das erleichtert später den Prozess des Zerlegens. Die Geschwindigkeit für Lückenfüllungen sollte auf 0 gesetzt werden, um diese ganz zu vermeiden.
+Da letzten Endes nur die maximal mögliche Volumengeschwindigkeit relevant ist, kann der Drucker also in allen anderen Geschwindigkeiten auf seine maximale Geschwindigkeit eingestellt werden (z.B. 100mm/s). Hier eignet sich der Wert der unter `Eilgang` (`Travel Speed`) eingetragen ist. Wichtig: Sollten gestapelte Versionen gedruckt werden, so ist wichtig, dass der Haken bei `Umfangbrücken entdecken` (`Detect bridging Perimeters`) gesetzt und die Geschwindigkeit von Brücken auf einen sehr niedrigen Wert gesetzt ist. Sinnig sind hier ca. 30-50mm/s. Das erleichtert später den Prozess des Zerlegens. Die Geschwindigkeit für Lückenfüllungen sollte auf 0 gesetzt werden, um diese ganz zu vermeiden.
 
-Anschließend kann der Gcode aus dem Modell generiert werden. Die Druckdauer sollte sich nicht nennenswert oberhalb einer Stunde pro Maske befinden. Wenn doch, bitte unten in der Rubrik Troublshooting nachschauen.
+Anschließend kann der Gcode aus dem Modell generiert werden. Die Druckdauer sollte sich nicht nennenswert oberhalb einer Stunde pro Maske befinden. Wenn doch, bitte unten in der Rubrik Troublshooting nachschauen oder mit uns in Verbindung setzen (z.B. slack, telegram, hier ein issue eröffnen, etc.).
 
 ## Troubleshooting
 
