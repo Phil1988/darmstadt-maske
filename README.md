@@ -12,7 +12,7 @@ Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir 
 ## Qualität und Nachbearbeitung
 
 Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch besser helfen zu können.
-Bitte denkt daran, dass man mit dieser herstellung dieser Maske eine gewisse Verantwortung hat.
+Bitte denkt daran, dass man mit dieser Herstellung dieser Maske eine gewisse Verantwortung hat.
 Daher überprüft bitte selbst die Qualität eurer Drucke.
 
 Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
