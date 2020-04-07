@@ -12,20 +12,29 @@ Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir 
 
 Diese Gesichtsmasken sind kein medizinisches Produkt, sind nicht zertifiziert und eine Herstellung und Benutzung geschieht auf eigene Gefahr. Jegliche Haftung ist ausgeschlossen.
 
-## Qualität
+## Qualität und Nachbearbeitung
 
 Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch besser helfen zu können.
 Bitte denkt daran, dass man mit dieser herstellung dieser Maske eine gewisse Verantwortung hat.
 Daher überprüft bitte selbst die Qualität eurer Drucke.
-Druckt das Modell mit mindestens 1mm Wandstärke (also für 0,4mm Düsen mit mindestens 3 Wänden).
-Nehmt 30% Füllung/Infill als Gitternetz/Grid oder Gyroid.
-
-Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
 
 Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
 [Youtube-Video](https://youtu.be/hdetuEkw_Qs )
 
-Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
+Das sollte das Modell, dass ihr uns abgebt, auch schaffen.
+Masken die schnell kaputt gehen, helfen den Hilfskräften nicht.
+Auch täuscht das über unseren wirklich verwendbaren Lagerbestand hinweg.
+
+Druckt das Modell mit mindestens 1mm Wandstärke (also für 0,4mm Düsen mit mindestens 3 Wänden).
+Nehmt 30% Füllung/Infill als Gitternetz/Grid oder Gyroid.
+
+Brim (und Pad) sollte auch entfernt worden sein, falls man damit druckt.
+Gestapelte (stack) Modelle sollten getrennt abgegeben werden.
+Die Innenseite (die die Stirn berührt) und die Vorderseite (an die die Folie dran kommt) sollten glatt sein.
+
+Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
+
+Solltet ihr Probleme haben diese Qualität zu erreichen, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
 
 ## Credits
 
