@@ -31,13 +31,24 @@ Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seit
 
 Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
 
-## TL;DR
+## Slicer-Einstellungen
 
 * Nutzt `PrusaSlicer` und stellt den in den Experten-Modus (rechts oben).
-* Alle Geschwindigkeiten auf die Geschwindigkeit `Eilgang` (`Travel Speed`) stellen, außer `Stützstrukturen` (`Support Material`), `Überbrückungen` (`Bridges`), `Lückenfüllung` (`Gap Fill`) und `Druckgeschwindigkeit der ersten Schicht` (`First layer speed`). Die echte Druckgeschwindigkeit wird ohnehin durch den maximalen Material Durchsatz eures Extruders begrenzt, sodass der Drucker die eingegebenen Geschwindigkeiten nicht erreichen wird.
+
+**Unter Druckeinstellungen -> Schichten und Umfänge (Layers and Perimeters):**
+* Setzt eine `Schichthöhe` (`Layer height`) von 0.3mm und stellt die `Konturen` (`Permiters`) bei 0,4mm Düse auf 3, bei 0,8mm Düse auf 2.
+
+**Unter Druckeinstellungen -> Infill:**
+* Setzt das Infill auf auf 30% und nehmt Gitternetz/Grid oder Gyroid. Das druckt minimal langsamer als ohne Infill, ist aber stabiler.
+
+**Unter Druckeinstellungen -> Geschwindigkeit (Speed):**
+* Alle Geschwindigkeiten auf die Geschwindigkeit `Eilgang` (`Travel Speed`) stellen, außer `Stützstrukturen` (`Support Material`), `Überbrückungen` (`Bridges`) und `Druckgeschwindigkeit der ersten Schicht` (`First layer speed`). Die echte Druckgeschwindigkeit wird ohnehin durch den maximalen Material Durchsatz eures Extruders begrenzt, sodass der Drucker die eingegebenen Geschwindigkeiten nicht erreichen wird.
 * Setzt die in eurem Filament die Maximale Volumengeschwindigkeit (`Max. Volumetric Speed`) auf 8mm³/s. Das könnt ihr erhöhen bis der Druck unsauber wird. Geeignet sind 2mm³/s Stufen. Sollte es zu lauten Knackgeräuschen aus dem Extruder kommen, ist der Wert zu hoch.
-* Setzt das Infill auf auf 10% und nehmt Gyroid. Das druckt minimal langsamer als ohne Infill, sollte dadurch aber stabiler sein.
-* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten sich zwischen den Hüllen Abstände befinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter, z.B. 0.48mm
+
+**Unter Druckeinstellungen -> Erweiterte Einstellungen (Advanced):**
+* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten die Außenwände sich nicht richtig verbinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter. Richtwerte für 0,4mm Düsen ist 0.48mm Bahnbreite und für 0,8mm Düsen 0,87mm Bahnbreite.
+
+
 
 ## FAQ
 
