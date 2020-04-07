@@ -10,6 +10,7 @@ Als groben Richtwert, kann man das Kopfteil in etwa 60min drucken - mit einer 0.
 Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir hier zusammentragen, anschauen oder mit uns in Kontakt treten.
 
 
+
 ## Qualität und Nachbearbeitung
 
 Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch besser helfen zu können.
@@ -33,6 +34,7 @@ Die Innenseite des Kopfteils (welche die Stirn berührt) und die Vorderseite (an
 Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
 
 Solltet ihr Probleme haben diese Qualität zu erreichen, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
+
 
 
 ## Modelle und ihre Bedeutung
@@ -62,9 +64,11 @@ Durch die Stapelung, können mehrere Modelle (z.B. über Nacht) an einem Stück 
 Leider fällt hierdurch aber ein zusätzlicher Arbeitsschritt an, da man die Modelle an den Sollbruchstellen erst lösen muss.
  
  
+ 
 ## Wohin mit den gedruckten Modellen und Material?
 Du kannst alles, am besten mit deinem Namen drauf, im Makerspace Darmstadt e.V. abgeben. 
 Das ist unsere zentrale Sammelstelle in Darmstadt.
+ 
  
  
 ## Slicer-Einstellungen
@@ -83,6 +87,7 @@ Das ist unsere zentrale Sammelstelle in Darmstadt.
 
 **Unter Druckeinstellungen -> Erweiterte Einstellungen (Advanced):**
 * Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten die Außenwände sich nicht richtig verbinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter. Richtwerte für 0,4mm Düsen ist 0.48mm Bahnbreite und für 0,8mm Düsen 0,87mm Bahnbreite.
+ 
  
  
 ## Erklärung zu den Druckeinstellungen
@@ -112,6 +117,7 @@ Da letzten Endes nur die maximal mögliche Volumengeschwindigkeit relevant ist, 
 Anschließend kann der Gcode aus dem Modell generiert werden. Die Druckdauer sollte sich nicht nennenswert oberhalb einer Stunde pro Maske befinden. Wenn doch, bitte unten in der Rubrik Troublshooting nachschauen oder mit uns in Verbindung setzen (z.B. slack, telegram, hier ein issue eröffnen, etc.).
 
 
+
 ## FAQ
 
 Q: Warum druckt ihr eigene Designs? Es gibt doch schon so viele!
@@ -129,6 +135,7 @@ Q: Ich nutze Cura. Gibt es dafür auch ein Einstellungs-Leitfaden?
 A: Aktuell nicht. Sollten wir erhöhten Bedarf sehen, könnte sich das aber ändern. Der PrusaSlicer in Version 2.2 unterstützt übrigens inzwischen auch den die Drucker der Ender 3 Serie. Vielleicht ist das eine Chance einen Blick drauf zu werfen.
 
 
+
 ## Troubleshooting
 
 Problem: Ich kann zwischen Bahnen durchgucken oder sie halten nicht aneinander.
@@ -140,9 +147,11 @@ Lösung: Wenn die Bahnen so auseinander stehen, dass man gewissermaßen von oben
 [perimeter]: perimeter.PNG "Nur Hüllen"
 
 
+
 ## Credits
 
 Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
+
 
 
 ## Disclaimer
