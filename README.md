@@ -12,6 +12,21 @@ Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir 
 
 Diese Gesichtsmasken sind kein medizinisches Produkt, sind nicht zertifiziert und eine Herstellung und Benutzung geschieht auf eigene Gefahr. Jegliche Haftung ist ausgeschlossen.
 
+## Qualität
+
+Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch besser helfen zu können.
+Bitte denkt daran, dass man mit dieser herstellung dieser Maske eine gewisse Verantwortung hat.
+Daher überprüft bitte selbst die Qualität eurer Drucke.
+Druckt das Modell mit mindestens 1mm Wandstärke (also für 0,4mm Düsen mit mindestens 3 Wänden).
+Nehmt 30% Füllung/Infill als Gitternetz/Grid oder Gyroid.
+
+Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
+
+Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
+[Youtube-Video](https://youtu.be/hdetuEkw_Qs )
+
+Solltet ihr Probleme haben, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
+
 ## Credits
 
 Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
@@ -44,6 +59,8 @@ A: Aktuell nicht. Sollten wir erhöhten Bedarf sehen, könnte sich das aber änd
 In diesem Repository findet man im Ordner stl das aktuelle Modell.
 Hier eine kleine Übersicht.
 Sollten dort in Zukunft mehr Versionen dazukommen, wird diese Übersicht ergänzt.
+
+Falls ihr Probleme mit dem Modell habt (0.8mm Nozzle) dann schreibt @Phil (slack) am besten direkt an oder öffnet hier ein Ticket.
 
 ### stl/Darmstadt_Maske_v2_ohne_pad.stl
 Das einfache Modell. Simpel, gut zu drucken und gut, um Druckeinstellungen zu testen.
