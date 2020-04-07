@@ -18,9 +18,9 @@ Wir freuen uns über jeden der der sich uns anschließt und wir gemeinsam noch b
 Bitte denkt daran, dass man mit dieser herstellung dieser Maske eine gewisse Verantwortung hat.
 Daher überprüft bitte selbst die Qualität eurer Drucke.
 Druckt das Modell mit mindestens 1mm Wandstärke (also für 0,4mm Düsen mit mindestens 3 Wänden).
-Nehmt 30% Füllung/INfill als Gitternetz/Grid.
+Nehmt 30% Füllung/Infill als Gitternetz/Grid oder Gyroid.
 
-Diese wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
+Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspart uns und euch Zeit und schont die Umwelt, wenn alle Modelle eine gute Qualität aufweisen.
 
 Hier ein Video das zeigt, welche mechanischer Belastung die Maske aushält:
 [Youtube-Video](https://youtu.be/hdetuEkw_Qs )
