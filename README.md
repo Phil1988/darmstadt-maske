@@ -8,9 +8,6 @@ Dieses Modell ist jedoch weiterhin vollständig kompatibel zur Prusa-Variante.
 Als groben Richtwert, kann man das Kopfteil in etwa 60min drucken - mit einer 0.4mm Düse.
 Wer deutlich länger benötigt, sollte sich nochmal alle Informationen, die wir hier zusammentragen, anschauen oder mit uns in Kontakt treten.
 
-## Disclaimer
-
-Diese Gesichtsmasken sind kein medizinisches Produkt, sind nicht zertifiziert und eine Herstellung und Benutzung geschieht auf eigene Gefahr. Jegliche Haftung ist ausgeschlossen.
 
 ## Qualität und Nachbearbeitung
 
@@ -36,45 +33,8 @@ Das Druckteil wird zwar beim Zusammenbau auch nochmal überprüft, aber es erspa
 
 Solltet ihr Probleme haben diese Qualität zu erreichen, dann lest zuerst bitte alle Hinweise auf dieser Seite durch und fragt uns danach um Hilfe für die passenden Druckeinstellungen.
 
-## Credits
 
-Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
-
-## Slicer-Einstellungen
-
-* Nutzt `PrusaSlicer` und stellt den in den Experten-Modus (rechts oben).
-
-**Unter Druckeinstellungen -> Schichten und Umfänge (Layers and Perimeters):**
-* Setzt eine `Schichthöhe` (`Layer height`) von 0.3mm und stellt die `Konturen` (`Permiters`) bei 0,4mm Düse auf 3, bei 0,8mm Düse auf 2.
-
-**Unter Druckeinstellungen -> Infill:**
-* Setzt das Infill auf auf 30% und nehmt Gitternetz/Grid oder Gyroid. Das druckt minimal langsamer als ohne Infill, ist aber stabiler.
-
-**Unter Druckeinstellungen -> Geschwindigkeit (Speed):**
-* Alle Geschwindigkeiten auf die Geschwindigkeit `Eilgang` (`Travel Speed`) stellen, außer `Stützstrukturen` (`Support Material`), `Überbrückungen` (`Bridges`) und `Druckgeschwindigkeit der ersten Schicht` (`First layer speed`). Die echte Druckgeschwindigkeit wird ohnehin durch den maximalen Material Durchsatz eures Extruders begrenzt, sodass der Drucker die eingegebenen Geschwindigkeiten nicht erreichen wird.
-* Setzt die in eurem Filament die Maximale Volumengeschwindigkeit (`Max. Volumetric Speed`) auf 8mm³/s. Das könnt ihr erhöhen bis der Druck unsauber wird. Geeignet sind 2mm³/s Stufen. Sollte es zu lauten Knackgeräuschen aus dem Extruder kommen, ist der Wert zu hoch.
-
-**Unter Druckeinstellungen -> Erweiterte Einstellungen (Advanced):**
-* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten die Außenwände sich nicht richtig verbinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter. Richtwerte für 0,4mm Düsen ist 0.48mm Bahnbreite und für 0,8mm Düsen 0,87mm Bahnbreite.
-
-
-
-## FAQ
-
-Q: Warum druckt ihr eigene Designs? Es gibt doch schon so viele!
-
-A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier. Außerdem kann das Modell, durch eine für die meisten 3D Drucker besser optimiertes Design, vergleichsweise schnell gedruckt werden.
-
-
-Q: Ist euer Design denn stabil genug?
-
-A: Wir sind der Ansicht, dass es keine Einschränkungen hinsichtlich der Stabilität geben sollte, auch wenn die Maske mit großen, schweren Folien (zB 0,8mm PETG) ausgestattet wird.
-
-Q: Ich nutze Cura. Gibt es dafür auch ein Einstellungs-Set?
-
-A: Aktuell nicht. Sollten wir erhöhten Bedarf sehen, könnte sich das aber ändern. Der PrusaSlicer in Version 2.2 unterstützt übrigens inzwischen auch den die Drucker der Ender 3 Serie. Vielleicht ist das eine Chance einen Blick drauf zu werfen.
-
-## Modelle
+## Modelle und ihre Bedeutung
 
 In diesem Repository findet man im Ordner stl das aktuelle Modell.
 Hier eine kleine Übersicht.
@@ -99,6 +59,29 @@ Das Pad lässt sich nach dem Druck einfach mit einem Seitenschneider entfernen u
 Dies sind gestapelte Modelle mit und ohne "Pad".
 Durch die Stapelung, kann mehrere Modelle (z.B. über Nacht) an einem Stück drucken.
 Leider fällt hierdurch aber ein zusätzlicher Arbeitsschritt an, da man die Modelle an den Sollbruchstellen erst lösen muss.
+ 
+ 
+## Wohin mit den gedruckten Modellen und Material?
+Du kannst alles, am besten mit deinem Namen drauf, im Makerspace Darmstadt e.V. abgeben. 
+Das ist unsere zentrale Sammelstelle in Darmstadt.
+ 
+ 
+## Slicer-Einstellungen
+
+* Nutzt `PrusaSlicer` und stellt den in den Experten-Modus (rechts oben).
+
+**Unter Druckeinstellungen -> Schichten und Umfänge (Layers and Perimeters):**
+* Setzt eine `Schichthöhe` (`Layer height`) von 0.3mm und stellt die `Konturen` (`Permiters`) bei 0,4mm Düse auf 3, bei 0,8mm Düse auf 2.
+
+**Unter Druckeinstellungen -> Infill:**
+* Setzt das Infill auf auf 30% und nehmt Gitternetz/Grid oder Gyroid. Das druckt minimal langsamer als ohne Infill, ist aber stabiler.
+
+**Unter Druckeinstellungen -> Geschwindigkeit (Speed):**
+* Alle Geschwindigkeiten auf die Geschwindigkeit `Eilgang` (`Travel Speed`) stellen, außer `Stützstrukturen` (`Support Material`), `Überbrückungen` (`Bridges`) und `Druckgeschwindigkeit der ersten Schicht` (`First layer speed`). Die echte Druckgeschwindigkeit wird ohnehin durch den maximalen Material Durchsatz eures Extruders begrenzt, sodass der Drucker die eingegebenen Geschwindigkeiten nicht erreichen wird.
+* Setzt die in eurem Filament die Maximale Volumengeschwindigkeit (`Max. Volumetric Speed`) auf 8mm³/s. Das könnt ihr erhöhen bis der Druck unsauber wird. Geeignet sind 2mm³/s Stufen. Sollte es zu lauten Knackgeräuschen aus dem Extruder kommen, ist der Wert zu hoch.
+
+**Unter Druckeinstellungen -> Erweiterte Einstellungen (Advanced):**
+* Die Extrusionsbreite ist abhängig von eurem Drucker. Sollten die Außenwände sich nicht richtig verbinden, ändert die Extrusionsbreite `Konturen` (`Perimeter`) und `Außenkonturen` (`External Perimeter`) auf etwas breiter. Richtwerte für 0,4mm Düsen ist 0.48mm Bahnbreite und für 0,8mm Düsen 0,87mm Bahnbreite.
  
  
 ## Erklärung zu Druckeinstellungen
@@ -127,6 +110,23 @@ Da letzten Endes nur die maximal mögliche Volumengeschwindigkeit relevant ist, 
 
 Anschließend kann der Gcode aus dem Modell generiert werden. Die Druckdauer sollte sich nicht nennenswert oberhalb einer Stunde pro Maske befinden. Wenn doch, bitte unten in der Rubrik Troublshooting nachschauen oder mit uns in Verbindung setzen (z.B. slack, telegram, hier ein issue eröffnen, etc.).
 
+
+## FAQ
+
+Q: Warum druckt ihr eigene Designs? Es gibt doch schon so viele!
+
+A: Das ist richtig, wir haben uns allerdings entschieden ein etwas anderes Design als bspw. Prusa zu verwenden, um eine in unseren Augen bessere Balance zwischen Druckzeit, Stabilität und Tragekomfort zu erreichen. Weiterhin ist die darmstadt-maske vollständig kompatibel zu den bei Prusa genutzten Knopfloch-Gummi-Bändern und den Visieren. Der hervorstechendste Unterschied ist ein größerer Abstand zwischen dem Gesicht und dem Visier. Außerdem kann das Modell, durch eine für die meisten 3D Drucker besser optimiertes Design, vergleichsweise schnell gedruckt werden.
+
+
+Q: Ist euer Design denn stabil genug?
+
+A: Wir sind der Ansicht, dass es keine Einschränkungen hinsichtlich der Stabilität geben sollte, auch wenn die Maske mit großen, schweren Folien (zB 0,8mm PETG) ausgestattet wird.
+
+Q: Ich nutze Cura. Gibt es dafür auch ein Einstellungs-Set?
+
+A: Aktuell nicht. Sollten wir erhöhten Bedarf sehen, könnte sich das aber ändern. Der PrusaSlicer in Version 2.2 unterstützt übrigens inzwischen auch den die Drucker der Ender 3 Serie. Vielleicht ist das eine Chance einen Blick drauf zu werfen.
+
+
 ## Troubleshooting
 
 Problem: Ich kann zwischen Bahnen durchgucken oder sie halten nicht aneinander.
@@ -136,3 +136,13 @@ Lösung: Wenn die Bahnen so auseinander stehen, dass man gewissermaßen von oben
 [gap_infill]: gap_infill.PNG "Infill und Lückenfüllungen"
 
 [perimeter]: perimeter.PNG "Nur Hüllen"
+
+
+## Credits
+
+Dieses Repository ist maßgeblich beinflusst von https://github.com/yschroeder/face-shield.
+
+
+## Disclaimer
+
+Diese Gesichtsmasken sind kein medizinisches Produkt, sind nicht zertifiziert und eine Herstellung und Benutzung geschieht auf eigene Gefahr. Jegliche Haftung ist ausgeschlossen.
