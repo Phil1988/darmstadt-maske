@@ -2,7 +2,7 @@
 
 Warum denn "noch eine Maske"? 
 
-Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich zurecht als das Maß für die Visiere etabliert hat, aber einige Interessenten fragten nach einer größeren Entfernung zwischen Gesicht und Visier oder der Möglichkeit auch andere, besser desinfizierbare, Kopfbänder zu befestigen.
+Gute Frage - wir haben nach etlichen Erfahrungswerten festgestellt, dass die Prusa-Masken zwar sinnvoll sind und sich zurecht als das Maß für die Masken etabliert hat, aber einige Interessenten fragten nach einer größeren Entfernung zwischen Gesicht und Visier oder der Möglichkeit auch andere, besser desinfizierbare, Kopfbänder zu befestigen.
 Außerdem wurde bei unserem Modell die Druckzeit durch Konstruktive veränderungen deutlich reduziert (bis zu 40% schneller).
 Dieses Modell ist jedoch weiterhin vollständig kompatibel zur Prusa-Variante, da die Visiere/Schilder identisch sind.
 
